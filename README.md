@@ -17,12 +17,14 @@ $ docker build -t <username>/tasks-api --network=host .
 
 ### Running the container
 
-**IMPORTANT** Create an ```.env``` file with the following parameters first:
+**IMPORTANT** Create an ```.env``` file with the following parameters:
 
 - AUTH_SECRET_KEY=n2r5u8x!A%D*G-KaPdSgVkYp3s6v9y$B?EAH+MbQeThWmZq4t7w!z%C*F-J@NcRf
 - LOG_FILENAME=log/tasks_api.log
 - CONNECTION_STRING=./db/dev.sqlite3
 - PORT=8080
+
+(or just copy the ```.env.sample``` file)
 
 Then you can run with the following command:
 

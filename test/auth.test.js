@@ -1,6 +1,6 @@
 
 const request = require("supertest");
-const testSetup = require("../testSetup");
+const testSetup = require("./testSetup");
 
 const { hash } = require("bcrypt");
 const { expect } = require("chai");

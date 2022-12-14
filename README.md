@@ -12,7 +12,7 @@ $ npm test
 ### Building the docker image
 
 ```sh
-$ docker build -t <username>/tasks-api --network=host .
+$ docker build -t tasks-api --network=host .
 ```
 
 ### Running the container
@@ -29,7 +29,7 @@ $ docker build -t <username>/tasks-api --network=host .
 Then you can run with the following command:
 
 ```sh
-docker run --rm --env-file=./.env -p 8080:8080 --name tasks-api --network host <username>/tasks-api
+docker run --rm --env-file=./.env -p 8080:8080 --name tasks-api --network host tasks-api
 ```
 
 ### Running some queries against the running instance

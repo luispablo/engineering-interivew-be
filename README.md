@@ -73,7 +73,7 @@ $ tail -f log/tasks_api.log | node_modules/bunyan/bin/bunyan
 - [x] Test local DB
 - [x] Document how to set-up the project (and UT, and logging)
 - [x] Document how to start docker and test some endpoints
-- [ ] Install from scratch an see all works OK
+- [x] Install from scratch an see all works OK
 - [ ] "and are authorized to view their tasks" ??
 
 ---

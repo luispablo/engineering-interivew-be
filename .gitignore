@@ -105,3 +105,4 @@ dist
 
 .tokenauth_tokens
 log/*
+!test/.env
